@@ -21,7 +21,7 @@
                 <li class="nav-item active"><a class="link" href="/casestudy">Case Studies</a></li>
                 <li class="nav-item"><a class="link" href="/features">Features</a></li>
                 <li class="nav-item"><a class="link" href="#">Security</a></li>
-                <li class="nav-item"><a class="link" href="/aboutus">Team</a></li>
+                <li class="nav-item"><a class="link" href="/about">Team</a></li>
                 <li class="nav-item"><a class="link" href="#">Pricing</a></li>
                 <li class="nav-item"><a class="link" href="#">Documentation</a></li>
                 <li class="nav-item">
@@ -48,7 +48,7 @@
             <a class="link py-2 d-none d-md-inline-block" href="/casestudy">Case Studies</a>
             <a class="link py-2 d-none d-md-inline-block" href="/features">Features</a>
             <a class="link py-2 d-none d-md-inline-block" href="#">Security</a>
-            <a class="link py-2 d-none d-md-inline-block" href="/aboutus">Team</a>
+            <a class="link py-2 d-none d-md-inline-block" href="/about">Team</a>
             <a class="link py-2 d-none d-md-inline-block" href="#">Pricing</a>
             <a class="link py-2 d-none d-md-inline-block" href="#">Documentation</a>
             <a class="d-none d-md-inline-block btn btn-outline-secondary" href="#">Login</a>
