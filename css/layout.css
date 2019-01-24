@@ -58,6 +58,7 @@
   .page-features .sub-inner-img {margin-top: 0px;}
   .page-features .feature-row > div { background-size: 50% !important; margin-bottom: 30px;}
   .page-features .feature-row { padding-top: 30px;}
+  .page-features h3 {text-align: center;}
 }
 
 @media (min-width: 768px) and (max-width: 900px) {

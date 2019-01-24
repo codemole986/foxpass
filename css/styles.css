@@ -413,3 +413,4 @@ footer ul li.item-green-light {background: url('../img/icons/green.png') no-repe
 .page-features .feature-row.left-content > div:nth-child(2) {background: url("../img/comps/deco-feature-right.png") no-repeat right top;}
 .page-features .feature-row.left-content > div:nth-child(1) {background: none;}
 .page-features .feature-row > div:nth-child(1), .page-features .feature-row > div:nth-child(3) {background: url("../img/comps/deco-feature-left.png") no-repeat left top;}
+.page-features h3 {text-align: left;}
