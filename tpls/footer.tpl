@@ -2,7 +2,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-md">
-            <a href="#"><img src="img/logos/foxpass-colored.png"></a>
+            <a href="/"><img src="img/logos/foxpass-colored.png"></a>
             <p style="margin: 20px 0 40px;">Foxpass brings enterprise-level security practices to companies of all sizes.</p>
             <small class="mb-3 text-muted d-none d-sm-block">Copyright © 2019 Foxpass, Inc.</small>
           </div>
@@ -10,7 +10,7 @@
             <div  style="padding-left: 20px;">
               <h5>Links</h5>
               <ul class="list-unstyled text-small">
-                <li><a class="text-muted" href="#">About</a></li>
+                <li><a class="text-muted" href="/aboutus">About</a></li>
                 <li><a class="text-muted" href="#">Services</a></li>
                 <li><a class="text-muted" href="#">Contact Us</a></li>
                 <li><a class="text-muted" href="#">Privacy Policy</a></li>
