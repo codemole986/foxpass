@@ -23,9 +23,9 @@ function doAnim() {
 }
 
 $('nav a').click(function(e) {
-    e.preventDefault();
     var sectionTo = $(this).attr('href');
     if ((sectionTo.indexOf('#') === 0) && (sectionTo.length > 1)) {
+      e.preventDefault();
       $('html, body').animate({
         scrollTop: $(sectionTo).offset().top - 100
       }, 200);  
