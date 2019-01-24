@@ -1,0 +1,74 @@
+@media only screen and (max-width: 991.98px) {
+  .showcase {margin-top: 40px;} 
+}
+
+@media (max-width: 768px) {
+  body { text-align: center; }
+  body:not(.page-home) { background-size: 100% 550px; }
+  body.page-home {
+    background: url('../img/comps/bg-mobile.png') no-repeat top center #fff;
+  }
+
+  body:not(.page-home) .headline .topline { margin-top: 20px;}
+  #to_verytop {display: none !important;}
+
+  .headline {padding-top: 0px;}
+  .margin-on-xs {margin-top: 80px;}  
+
+  .part-sepa {background: url('../img/comps/bg-sepa-mobile.png') no-repeat top center; background-size: 100%;}
+
+  .logo-block ul {margin-bottom: 0;}
+  .logo-block ul li {margin: 10px 0; max-width: 32%;}
+
+  #how_it_works {margin-bottom: 120px;}
+  
+  img.smaller-in-mobile {width: 90%;}
+
+  .feedbacks .text-left {text-align: center !important;}
+
+  .sub-inner { padding-right: 0; }
+  .left-content .sub-inner {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .sub-inner-img {margin-top: 60px;}
+  .cont-block .row { margin-top: 0;}
+  .feature-row { padding-top: 80px;}
+
+  footer ul {text-align: left;}
+  footer ul.social-links {text-align: center;}
+
+  .confetti {
+    background: url(../img/comps/deco-mobile.png) no-repeat center 100px;
+    padding: 50px 0 150px;
+    background-size: contain;
+  }
+
+  .review-block {text-align: left; width: 280px; padding: 40px; margin: 10px;}
+  .writer-block .details {margin-left: 10px;}
+  .review-block > p {height: 120px;}
+  .slick-prev, .slick-next {display: none !important;}
+
+
+  .team-members ul li {width: 100%;}
+  .team-members ul li .team-member .details h5 {text-align: center;}
+
+  .page-features .features { margin-top: 0px; }
+  .page-features .sub-inner-img {margin-top: 0px;}
+  .page-features .feature-row > div { background-size: 50% !important; margin-bottom: 30px;}
+  .page-features .feature-row { padding-top: 30px;}
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+  .team-members ul li {width: 50%;}
+}
+
+@media (min-width: 1200px) {
+  body {background-size: 100% 506px;}
+  body.page-home {background-size: 100% 2000px;}
+}
+
+@media (min-width: 1440px) {
+  .confetti, .part-sepa {background-size: 100%;}
+}
