@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/layout.css">
 
     <title>FoxPass</title>
+    <meta name="robots" content="noindex">
   </head>
   <body class="page page-<?php echo $_main_tpl; ?>">
     <div id="left_curtain"></div><div id="right_curtain"></div>
