@@ -25,7 +25,7 @@
             <p>Foxpass is a new Y Combinator company (Summer 2015) based in San Francisco, CA. Remote considered. These are the first non-founding engineering roles, so they include substantial equity but few perks.</p>
             <div class="grey-faded-sepaline"></div>
             <a href="mailto: jobs@foxpass.com">
-              <span class="signs"><img src="img/icons/email-colored.png"></span>
+              <span class="signs small"><img src="img/icons/email-colored.png"></span>
               jobs@foxpass.com
             </a>
           </div>
@@ -36,14 +36,79 @@
 
     <div class="part-sepa"></div>
 
-    <div class="confetti jobs cont-block">
+    <div class="confetti jobs cont-block whiteback">
       <div class="container">
         <div class="text-center"><div class="signs"><img src="img/icons/section-deep.png"></div></div>
         <h3>Jobs <b>We Offer</b></h3>
-        <h5>Lorem ipsum dolor sit amet consectetur.</h5>
-        <div class="text-center" style="margin-top: 30px;">
-          <a class="btn btn-outline-primary" href="#">Try Now</a>
-          <a class="btn btn-outline-secondary" href="#">Book a Demo</a>
+        <div class="row jobs-offered">
+          <div class="col-md-6">
+            <div class="job-box">
+              <h4>Senior Software Engineer (Backend)</h4>
+              <p>Foxpass needs a Senior Software Engineer to help us grow and maintain our mission-critical LDAP, RADIUS, and SSH key serving products. Uptime is job one!</p>
+
+              <div id="accordion1" class="accordionset">
+                  <div class="card">
+                    <div class="card-header" id="heading_0">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_0" aria-expanded="true" aria-controls="collapse_0">Responsibilities</button>
+                      </h5>
+                    </div>
+
+                    <div id="collapse_0" class="collapse " aria-labelledby="heading_0" data-parent="#accordion1">
+                      <div class="card-body">
+                        What are the different user types? Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="heading_1">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_1" aria-expanded="false" aria-controls="collapse_1">Requirements</button>
+                      </h5>
+                    </div>
+
+                    <div id="collapse_1" class="collapse " aria-labelledby="heading_1" data-parent="#accordion1">
+                      <div class="card-body">
+                        What features are included in LDAP support? Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.                      </div>
+                    </div>
+                  </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="job-box">
+              <h4>Senior Software Engineer (Backend)</h4>
+              <p>Foxpass needs a Senior Software Engineer to help us grow and maintain our mission-critical LDAP, RADIUS, and SSH key serving products. Uptime is job one!</p>
+
+              <div id="accordion2" class="accordionset">
+                  <div class="card">
+                    <div class="card-header" id="heading_2">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_2" aria-expanded="false" aria-controls="collapse_2">Responsibilities</button>
+                      </h5>
+                    </div>
+
+                    <div id="collapse_2" class="collapse " aria-labelledby="heading_2" data-parent="#accordion2">
+                      <div class="card-body">
+                        How do I copy over my employee directory? Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="card">
+                    <div class="card-header" id="heading_3">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_3" aria-expanded="false" aria-controls="collapse_3">Requirements</button>
+                      </h5>
+                    </div>
+
+                    <div id="collapse_3" class="collapse " aria-labelledby="heading_3" data-parent="#accordion2">
+                      <div class="card-body">
+                        What features are included in RADIUS support? Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.                      </div>
+                    </div>
+                  </div>        
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -4,12 +4,12 @@
 
 @media (max-width: 768px) {
   body { text-align: center; }
-  body:not(.page-home) { background-size: 100% 550px; }
-  body.page-home {
+  body:not(.longback) { background-size: 100% 550px; }
+  body.longback {
     background: url('../img/comps/bg-mobile.png') no-repeat top center #fff;
   }
 
-  body:not(.page-home) .headline .topline { margin-top: 20px;}
+  body:not(.longback) .headline .topline { margin-top: 20px;}
   #to_verytop {display: none !important;}
 
   .headline {padding-top: 0px;}
@@ -40,10 +40,12 @@
   footer ul.social-links {text-align: center;}
 
   .confetti {
-    background: url(../img/comps/deco-mobile.png) no-repeat center 100px;
+    background-image: url(../img/comps/deco-mobile.png);
+    background-position: center 100px;
     padding: 50px 0 150px;
     background-size: contain;
   }
+  .confetti.type3 {padding-top: 50px; margin-top: 0px;}
 
   .review-block {text-align: left; width: 280px; padding: 40px; margin: 10px;}
   .writer-block .details {margin-left: 10px;}
@@ -59,6 +61,17 @@
   .page-features .feature-row > div { background-size: 50% !important; margin-bottom: 30px;}
   .page-features .feature-row { padding-top: 30px;}
   .page-features h3 {text-align: center;}
+
+  .part-sepa, .page-security .part-sepa {margin-top: 0px;}
+  .page-security .security-row {padding-top: 0;}
+
+  .plan-row > div {margin: 2px 30px; border: none;}
+  .planbox {border-radius: 20px !important; border: solid 1px #eee;}
+
+  ul.addon-features {text-align: left;}
+
+  .page-pricing .you-need-something {margin: 20px 0;}
+  .addon-features-block {margin: 30px 0;}
 }
 
 @media (min-width: 768px) and (max-width: 900px) {
@@ -67,7 +80,7 @@
 
 @media (min-width: 1200px) {
   body {background-size: 100% 506px;}
-  body.page-home {background-size: 100% 2000px;}
+  body.longback {background-size: 100% 2000px;}
 }
 
 @media (min-width: 1440px) {

@@ -94,8 +94,11 @@ function init_slide() {
 }
 
 function adjustLayout() {
-  var leftMargin = $('.feedbacks').offset().left;
-  $('#review_slide_container').css('margin-left', leftMargin - 20);
+
+  if ($('.feedbacks').length > 0) {
+    var leftMargin = $('.feedbacks').offset().left;
+    $('#review_slide_container').css('margin-left', leftMargin - 20);
+  }
 
   var wWv = $(window).width();
   if (wWv > 1440) {

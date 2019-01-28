@@ -18,12 +18,12 @@
 
               <!-- Links -->
               <ul class="navbar-nav mr-auto">
-                <li class="nav-item active"><a class="link" href="/casestudy">Case Studies</a></li>
-                <li class="nav-item"><a class="link" href="/features">Features</a></li>
-                <li class="nav-item"><a class="link" href="#">Security</a></li>
-                <li class="nav-item"><a class="link" href="/about">Team</a></li>
-                <li class="nav-item"><a class="link" href="#">Pricing</a></li>
-                <li class="nav-item"><a class="link" href="#">Documentation</a></li>
+                <li class="nav-item <?php echo ($_main_tpl == 'casestudy' ? 'active' : ''); ?>"><a class="link" href="/casestudy">Case Studies</a></li>
+                <li class="nav-item <?php echo ($_main_tpl == 'features' ? 'active' : ''); ?>"><a class="link" href="/features">Features</a></li>
+                <li class="nav-item <?php echo ($_main_tpl == 'security' ? 'active' : ''); ?>"><a class="link" href="/security">Security</a></li>
+                <li class="nav-item <?php echo ($_main_tpl == 'about' ? 'active' : ''); ?>"><a class="link" href="/about">Team</a></li>
+                <li class="nav-item <?php echo ($_main_tpl == 'pricing' ? 'active' : ''); ?>"><a class="link" href="/pricing">Pricing</a></li>
+                <li class="nav-item <?php echo ($_main_tpl == 'documents' ? 'active' : ''); ?>"><a class="link" href="#">Documentation</a></li>
                 <li class="nav-item">
                   <div class="row">
                     <div class="col-md-6"><a class="btn btn-outline-secondary" href="#">Login</a></div>
@@ -45,12 +45,12 @@
           </div>
 
           <div class="right d-flex flex-md-row flex-column justify-content-between col-md-9" style="padding-right: 0;">
-            <a class="link py-2 d-none d-md-inline-block" href="/casestudy">Case Studies</a>
-            <a class="link py-2 d-none d-md-inline-block" href="/features">Features</a>
-            <a class="link py-2 d-none d-md-inline-block" href="#">Security</a>
-            <a class="link py-2 d-none d-md-inline-block" href="/about">Team</a>
-            <a class="link py-2 d-none d-md-inline-block" href="#">Pricing</a>
-            <a class="link py-2 d-none d-md-inline-block" href="#">Documentation</a>
+            <a class="nav-item link py-2 d-none d-md-inline-block <?php echo ($_main_tpl == 'casestudy' ? 'active' : ''); ?>" href="/casestudy">Case Studies</a>
+            <a class="nav-item link py-2 d-none d-md-inline-block <?php echo ($_main_tpl == 'features' ? 'active' : ''); ?>" href="/features">Features</a>
+            <a class="nav-item link py-2 d-none d-md-inline-block <?php echo ($_main_tpl == 'security' ? 'active' : ''); ?>" href="/security">Security</a>
+            <a class="nav-item link py-2 d-none d-md-inline-block <?php echo ($_main_tpl == 'about' ? 'active' : ''); ?>" href="/about">Team</a>
+            <a class="nav-item link py-2 d-none d-md-inline-block <?php echo ($_main_tpl == 'pricing' ? 'active' : ''); ?>" href="/pricing">Pricing</a>
+            <a class="nav-item link py-2 d-none d-md-inline-block <?php echo ($_main_tpl == 'documents' ? 'active' : ''); ?>" href="#">Documentation</a>
             <a class="d-none d-md-inline-block btn btn-outline-secondary" href="#">Login</a>
             <a class="d-none d-md-inline-block btn btn-outline-primary" href="#">Book a Demo</a>
           </div>
