@@ -12,7 +12,7 @@ body.longback {
 a, a:hover, a:active, a:focus {color: #f26422;}
 
 h2,h3,h5 {font-weight: normal;}
-h2 {font-size: 55px;}
+h2 {font-size: 50px;}
 h3 {font-size: 40px; color: #1f2c35;}
 h4 {font-size: 25px; color: #1f2c35; margin: 30px 0;}
 h2 p {font-weight: bold;}
@@ -21,6 +21,11 @@ h3, h5 {text-align: center;}
 h3 {margin-bottom: 30px;}
 
 img {max-width: 100%;}
+.text-center img {margin-left: auto; margin-right: auto;}
+
+.btn {padding: .75rem 1.5rem;}
+nav .btn {padding: .375rem .75rem;}
+
 
 .whiteback {background-color: #ffffff;}
 
@@ -94,6 +99,7 @@ nav.site-header {padding-top: 20px !important;padding-bottom: 20px !important;ba
 .headline {padding-top: 45px;}
 .headline h2, .headline p {color: #ffffff;}
 .headline .sumary {margin: 30px 0; padding: 0 10%;}
+.page-home .headline .sumary {padding: 0;}
 
 .headline .topline {margin-top: 70px;}
 .topline .sumary p {color: #f8deb8;}
@@ -122,6 +128,7 @@ nav.site-header {padding-top: 20px !important;padding-bottom: 20px !important;ba
 }
 
 .cont-block {margin-top: 90px;}
+.cont-block h5 {padding: 0 10%;}
 .cont-block.whiteback {margin-top: 0px;}
 .cont-block .row {margin-top: 50px;}
 
@@ -501,10 +508,20 @@ ul.checker li {
   margin-bottom: 20px;
 }
 
-ul.pricing_switcher {margin: 0; padding: 3px; list-style: none; display: inline-block;}
+ul.pricing_switcher {margin: 0; padding: 3px; list-style: none; display: inline-block; position: relative;}
 ul.pricing_switcher {background: #e26a26; color: #ffffff; border-radius: 100px;}
-ul.pricing_switcher li {display: inline-block; padding: 10px 30px; cursor: pointer;}
-ul.pricing_switcher li.active {background: #ffffff; color: #f26422; border-radius: 100px !important;}
+ul.pricing_switcher li {
+  display: inline-block; padding: 10px 30px; cursor: pointer; position: relative;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+ul.pricing_switcher li.active {color: #f26422;}
+ul.pricing_switcher::before {
+  content: "."; text-indent: -1000px; overflow: hidden; display: block; position: absolute; width: 160px; left: 2px; top: 2px; height: calc(100% - 4px);  background: #ffffff; border-radius: 100px !important;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+ul.pricing_switcher.second-active::before {left: 158px; width: 180px;}
 ul.pricing_switcher li:first-child {border-radius: 100px 0 0 100px;}
 ul.pricing_switcher li:last-child {border-radius: 0 100px 100px 0;}
 
@@ -530,3 +547,22 @@ ul.addon-features li {background-repeat: no-repeat; background-position: left 3p
 .accordionset .card-header {border-bottom: solid 1px #eee; background: none;}
 
 .pricing-questions h3 {text-align: left;}
+.pricing {position: relative;}
+.pricing .plan-row {}
+.switch-row {margin-bottom: 20px;}
+.do-show {
+  visibility: visible;
+  opacity: 1;
+}
+.do-hide {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+/*** Terms of Service ***/
+.text-block {text-align: left;}
+.text-block h4 {font-size: 17px; text-transform: uppercase; color: #1f2c35; background: url('../img/icons/check-in-circle-m.png') no-repeat; padding-left: 30px;}
+.text-block p {font-size: 15px;}
+.text-block p em {font-style: normal; color: #f26423; line-height: 1.8em;}
+.text-block hr {margin: 50px 0;}

@@ -16,126 +16,245 @@
 
     <div class="container pricing cont-block">
       
-      <div class="row switch-row feature12">
+      <div class="row switch-row">
         <div class="col-md-12 text-center">
           <ul id="pricing_switcher" class="clearfix pricing_switcher">
-            <li class="link-yearly active">Yearly Billing</li>
-            <li class="link-monthly">Monthly Billing</li>
+            <li class="link-yearly active" show-target="#yearly_plan">Yearly Billing</li>
+            <li class="link-monthly" show-target="#monthly_plan">Monthly Billing</li>
           </ul>
         </div>
       </div>
 
-      <div class="row yearly-plan-row plan-row">
-        <div class="plan-col col-md-3">
-          <div class="planbox firstbox">
-            <div class="box-inner">
-              <div class="header-block">
-                <span class="plan-title">Free Forever</span>
-              </div>
-              <div class="price-block">
-                <sup>$</sup><b>0</b><sub>/Year</sub>
-              </div>
-              <div class="detail-block">
-                <h5>10 Total Users</h5>
-                <p>5 Engineering users or Posix users</p>
-              </div>
-              <div class="items-block">
-                <ul class="checker">
-                  <li>Lightweight Directory Access Protocol</li>
-                  <li>Remote Authentication Dial-In User Service </li>
-                </ul>
-              </div>
-              <div class="btn-block">
-                <a href="#" class="btn btn-outline-primary">Sign Up</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="plan-col col-md-3">
-          <div class="planbox active">
-            <div class="box-inner">
-              <div class="header-block">
-                <span class="plan-title">Basic</span>
-              </div>
-              <div class="price-block">
-                <sup>$</sup><b>900</b><sub>/Year</sub>
-              </div>
-              <div class="detail-block">
-                <h5>20 Total Users</h5>
-                <p>10 Engineering users or Posix users</p>
-              </div>
-              <div class="items-block">
-                <ul class="checker">
-                  <li>Lightweight Directory Access Protocol</li>
-                  <li>Remote Authentication Dial-In User Service</li>
-                  <li>Email Support</li>
-                </ul>
-              </div>
-              <div class="btn-block">
-                <a href="#" class="btn btn-outline-primary">Sign Up</a>
+      <div style="position: relative;">
+        <!-- *** YEARLY PRICING ** START ********* -->
+        <div class="row yearly-plan-row plan-row" id="yearly_plan">
+          <div class="plan-col col-md-3">
+            <div class="planbox firstbox">
+              <div class="box-inner">
+                <div class="header-block">
+                  <span class="plan-title">Free Forever</span>
+                </div>
+                <div class="price-block">
+                  <sup>$</sup><b>0</b><sub>/Year</sub>
+                </div>
+                <div class="detail-block">
+                  <h5>10 Total Users</h5>
+                  <p>5 Engineering users or Posix users</p>
+                </div>
+                <div class="items-block">
+                  <ul class="checker">
+                    <li>Lightweight Directory Access Protocol</li>
+                    <li>Remote Authentication Dial-In User Service </li>
+                  </ul>
+                </div>
+                <div class="btn-block">
+                  <a href="#" class="btn btn-outline-primary">Sign Up</a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-
-        <div class="plan-col col-md-3">
-          <div class="planbox">
-            <div class="box-inner">
-              <div class="header-block">
-                <span class="plan-title">Plus</span>
-              </div>
-              <div class="price-block">
-                <sup>$</sup><b>1,800</b><sub>/Year</sub>
-              </div>
-              <div class="detail-block">
-                <h5>75 Total Users</h5>
-                <p>25 Eng. or Posix users<br>10 additional Posix users</p>
-              </div>
-              <div class="items-block">
-                <ul class="checker">
-                  <li>Lightweight Directory Access Protocol</li>
-                  <li>Remote Authentication Dial-In User Service</li>
-                  <li>Email Support</li>
-                </ul>
-              </div>
-              <div class="btn-block">
-                <a href="#" class="btn btn-outline-primary">Sign Up</a>
+          <div class="plan-col col-md-3">
+            <div class="planbox active">
+              <div class="box-inner">
+                <div class="header-block">
+                  <span class="plan-title">Basic</span>
+                </div>
+                <div class="price-block">
+                  <sup>$</sup><b>900</b><sub>/Year</sub>
+                </div>
+                <div class="detail-block">
+                  <h5>20 Total Users</h5>
+                  <p>10 Engineering users or Posix users</p>
+                </div>
+                <div class="items-block">
+                  <ul class="checker">
+                    <li>Lightweight Directory Access Protocol</li>
+                    <li>Remote Authentication Dial-In User Service</li>
+                    <li>Email Support</li>
+                  </ul>
+                </div>
+                <div class="btn-block">
+                  <a href="#" class="btn btn-outline-primary">Sign Up</a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
 
-        <div class="plan-col col-md-3">
-          <div class="planbox lastbox">
-            <div class="box-inner">
-              <div class="header-block">
-                <span class="plan-title">Premium</span>
-              </div>
-              <div class="price-block">
-                <sup>$</sup><b>3,000</b><sub>/Year</sub>
-              </div>
-              <div class="detail-block">
-                <h5>200 Total Users</h5>
-                <p>50 Eng. or Posix users<br>50 additional Posix users</p>
-              </div>
-              <div class="items-block">
-                <ul class="checker">
-                  <li>Lightweight Directory Access Protocol</li>
-                  <li>Remote Authentication Dial-In User Service</li>
-                  <li>Email Support</li>
-                </ul>
-              </div>
-              <div class="btn-block">
-                <a href="#" class="btn btn-outline-primary">Sign Up</a>
+          <div class="plan-col col-md-3">
+            <div class="planbox">
+              <div class="box-inner">
+                <div class="header-block">
+                  <span class="plan-title">Plus</span>
+                </div>
+                <div class="price-block">
+                  <sup>$</sup><b>1,800</b><sub>/Year</sub>
+                </div>
+                <div class="detail-block">
+                  <h5>75 Total Users</h5>
+                  <p>25 Eng. or Posix users<br>10 additional Posix users</p>
+                </div>
+                <div class="items-block">
+                  <ul class="checker">
+                    <li>Lightweight Directory Access Protocol</li>
+                    <li>Remote Authentication Dial-In User Service</li>
+                    <li>Email Support</li>
+                  </ul>
+                </div>
+                <div class="btn-block">
+                  <a href="#" class="btn btn-outline-primary">Sign Up</a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
+
+          <div class="plan-col col-md-3">
+            <div class="planbox lastbox">
+              <div class="box-inner">
+                <div class="header-block">
+                  <span class="plan-title">Premium</span>
+                </div>
+                <div class="price-block">
+                  <sup>$</sup><b>3,000</b><sub>/Year</sub>
+                </div>
+                <div class="detail-block">
+                  <h5>200 Total Users</h5>
+                  <p>50 Eng. or Posix users<br>50 additional Posix users</p>
+                </div>
+                <div class="items-block">
+                  <ul class="checker">
+                    <li>Lightweight Directory Access Protocol</li>
+                    <li>Remote Authentication Dial-In User Service</li>
+                    <li>Email Support</li>
+                  </ul>
+                </div>
+                <div class="btn-block">
+                  <a href="#" class="btn btn-outline-primary">Sign Up</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- *** YEARLY PRICING ** END ********* -->
+
+        <!-- *** MONTHLY PRICING ** START ********* -->
+        <div class="row monthly-plan-row plan-row unshow" id="monthly_plan">
+          <div class="plan-col col-md-3">
+            <div class="planbox firstbox">
+              <div class="box-inner">
+                <div class="header-block">
+                  <span class="plan-title">Free Forever</span>
+                </div>
+                <div class="price-block">
+                  <sup>$</sup><b>0</b><sub>/Month</sub>
+                </div>
+                <div class="detail-block">
+                  <h5>10 Total Users</h5>
+                  <p>5 Engineering users or Posix users</p>
+                </div>
+                <div class="items-block">
+                  <ul class="checker">
+                    <li>Lightweight Directory Access Protocol</li>
+                    <li>Remote Authentication Dial-In User Service </li>
+                  </ul>
+                </div>
+                <div class="btn-block">
+                  <a href="#" class="btn btn-outline-primary">Sign Up</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="plan-col col-md-3">
+            <div class="planbox active">
+              <div class="box-inner">
+                <div class="header-block">
+                  <span class="plan-title">Basic</span>
+                </div>
+                <div class="price-block">
+                  <sup>$</sup><b>80</b><sub>/Month</sub>
+                </div>
+                <div class="detail-block">
+                  <h5>20 Total Users</h5>
+                  <p>10 Engineering users or Posix users</p>
+                </div>
+                <div class="items-block">
+                  <ul class="checker">
+                    <li>Lightweight Directory Access Protocol</li>
+                    <li>Remote Authentication Dial-In User Service</li>
+                    <li>Email Support</li>
+                  </ul>
+                </div>
+                <div class="btn-block">
+                  <a href="#" class="btn btn-outline-primary">Sign Up</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="plan-col col-md-3">
+            <div class="planbox">
+              <div class="box-inner">
+                <div class="header-block">
+                  <span class="plan-title">Plus</span>
+                </div>
+                <div class="price-block">
+                  <sup>$</sup><b>170</b><sub>/Month</sub>
+                </div>
+                <div class="detail-block">
+                  <h5>75 Total Users</h5>
+                  <p>25 Eng. or Posix users<br>10 additional Posix users</p>
+                </div>
+                <div class="items-block">
+                  <ul class="checker">
+                    <li>Lightweight Directory Access Protocol</li>
+                    <li>Remote Authentication Dial-In User Service</li>
+                    <li>Email Support</li>
+                  </ul>
+                </div>
+                <div class="btn-block">
+                  <a href="#" class="btn btn-outline-primary">Sign Up</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="plan-col col-md-3">
+            <div class="planbox lastbox">
+              <div class="box-inner">
+                <div class="header-block">
+                  <span class="plan-title">Premium</span>
+                </div>
+                <div class="price-block">
+                  <sup>$</sup><b>280</b><sub>/Month</sub>
+                </div>
+                <div class="detail-block">
+                  <h5>200 Total Users</h5>
+                  <p>50 Eng. or Posix users<br>50 additional Posix users</p>
+                </div>
+                <div class="items-block">
+                  <ul class="checker">
+                    <li>Lightweight Directory Access Protocol</li>
+                    <li>Remote Authentication Dial-In User Service</li>
+                    <li>Email Support</li>
+                  </ul>
+                </div>
+                <div class="btn-block">
+                  <a href="#" class="btn btn-outline-primary">Sign Up</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- *** MONTHLY PRICING ** END ********* -->
       </div>
+
 
     </div>
 

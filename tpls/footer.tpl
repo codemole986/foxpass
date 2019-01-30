@@ -13,8 +13,8 @@
                 <li><a class="text-muted" href="/about">About</a></li>
                 <li><a class="text-muted" href="/jobs">Jobs</a></li>
                 <li><a class="text-muted" href="#">Contact Us</a></li>
-                <li><a class="text-muted" href="#">Privacy Policy</a></li>
-                <li><a class="text-muted" href="#">Terms of Use</a></li>
+                <li><a class="text-muted" href="/terms">Privacy Policy</a></li>
+                <li><a class="text-muted" href="/terms">Terms of Use</a></li>
               </ul>
             </div>
           </div>

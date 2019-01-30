@@ -9,7 +9,7 @@
               <a class="d-none d-md-inline-block btn btn-outline-primary" href="#">Activate your 30-day free trial today!</a>
             </div>
             <div class="col-md-6 margin-on-xs">
-              <img src="img/comps/notebook.png" class="smaller-in-mobile">
+              <img src="img/comps/notebook.png" class="smaller-in-mobile" style="margin-top: -50px;">
             </div>
           </div>
         </div>

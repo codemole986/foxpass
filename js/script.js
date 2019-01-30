@@ -132,4 +132,19 @@ function assignEvents() {
     $('#mobile_nave_button').trigger('click');
   });
 
+  $('.pricing_switcher li').on('click', function(e){
+    e.preventDefault();
+    var $me = $(this);
+    var $mom = $me.parent();
+    
+    $me.siblings().each(function(i, o){
+      $(o).removeClass('active');
+      $($(o).attr('show-target')).removeClass('do-show').addClass('do-hide');
+    });
+    $me.addClass('active');
+    $($me.attr('show-target')).removeClass('do-hide').addClass('do-show');
+
+    $mom.toggleClass('second-active', ($me.index() == 1));
+  });
+
 }
