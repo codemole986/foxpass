@@ -158,6 +158,7 @@ footer ul li.item-green-light {background: url('../img/icons/green.png') no-repe
 
 .sub-inner {padding-right: 20%;}
 .left-content .sub-inner {padding-left: 20%; padding-right: 0;}
+.left-content .sub-inner-img {text-align: right;}
 /*#review_slide {height: 300px;}
 #review_slide .wrapper {position: absolute; width: 1500px;}*/
 .review-block {width: 450px; margin: 20px; /* display: inline-block; margin: 20px;*/padding: 50px; background: url('../img/comps/comp-2xquote.png') no-repeat 30px 30px #fff; border-radius: 5px; box-shadow: rgba(0,0,0,0.1) 0px 0px 20px;}
